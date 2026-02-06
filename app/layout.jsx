@@ -53,12 +53,12 @@ export const metadata = {
     ],
     authors: [{ name: 'SMP NU Assalafie Unggulan' }],
     creator: 'SMP NU Assalafie Unggulan',
-    metadataBase: new URL('https://spmb-smpnuassalafie.vercel.app'),
+    metadataBase: new URL('https://spmb.smpnuassalafie.sch.id'),
 
     openGraph: {
         title: 'SPMB Online | SMP NU Assalafie Unggulan',
         description: 'Daftar SPMB SMP NU Assalafie Unggulan 2026/2027. Sistem online resmi untuk siswa baru.',
-        url: 'https://spmb-smpnuassalafie.vercel.app',
+        url: 'https://spmb.smpnuassalafie.sch.id',
         siteName: 'SPMB Online',
         images: [
             {
