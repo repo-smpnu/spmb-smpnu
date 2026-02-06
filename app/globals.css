@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-gray-800 antialiased;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #F0A500 0%, #D88E00 100%);
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #F8FAFC 0%, #EEF7F2 50%, #FEF3C7 100%);
+}
+
+/* Focus states for accessibility */
+a:focus-visible,
+button:focus-visible {
+  @apply outline-none ring-2 ring-primary ring-offset-2;
+}
+
+/* Mobile menu animation */
+.mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.mobile-menu.open {
+  max-height: 400px;
+}
